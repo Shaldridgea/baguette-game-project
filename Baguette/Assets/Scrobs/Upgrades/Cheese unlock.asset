@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d222ca9e2200da4ab624e2fb619f740, type: 3}
+  m_Name: Cheese unlock
+  m_EditorClassIdentifier: 
+  frontendName: Cheese
+  backendNames:
+  - cheeseUnlock
+  startingLevel: -1
+  category: 1
+  canGoBack: 0
+  levelValues:
+  - levelName: Unlock
+    levelSprite: {fileID: 21300000, guid: 6667f7debccb7e648870393d35969279, type: 3}
+    levelCost: 50
+    tooltip: Buy cheese you can use on your dough to make it delightfully cheesy.
+    levelUpgrades:
+    - CheeseBowl

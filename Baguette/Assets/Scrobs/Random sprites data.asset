@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62f1ff98a912954485099157cc5e784, type: 3}
+  m_Name: Random sprites data
+  m_EditorClassIdentifier: 
+  smallFillGraphics:
+  - {fileID: 21300000, guid: d12a045e248247246a485d2d9e4baabd, type: 3}
+  - {fileID: 21300000, guid: 02cbb713a9c7eea449d49afe9182fb20, type: 3}
+  - {fileID: 21300000, guid: 6ad39794681718b4887f6596f2455566, type: 3}
+  - {fileID: 21300000, guid: 90ff900159557b8439f57ff3f53e48ae, type: 3}
+  - {fileID: 21300000, guid: 443706d931d9da54dac753efdea1b842, type: 3}
+  largeFillGraphics:
+  - {fileID: 21300000, guid: 3fe4f47188208af47b7749f8a04ab8c2, type: 3}
+  - {fileID: 21300000, guid: 07c56c111feccdb4b82873f44a072bfc, type: 3}
+  - {fileID: 21300000, guid: 66fcc049289b4a44db5ffbf74f8e6fde, type: 3}
+  smallOutlineGraphics:
+  - {fileID: 21300000, guid: 14a08be8b44267d48b9f14861fd4def3, type: 3}
+  - {fileID: 21300000, guid: a2936fc2d1d839f4d8c6b73636b9193c, type: 3}
+  - {fileID: 21300000, guid: 6c1fa678a874a9349a4c87e4b8508a93, type: 3}
+  - {fileID: 21300000, guid: 600bc5cee4bd3aa46b6ea9ee7daf5e29, type: 3}
+  - {fileID: 21300000, guid: 7581bfc805a4a2d458321ca3d0107134, type: 3}
+  largeOutlineGraphics:
+  - {fileID: 21300000, guid: c8d672393cc6aa5469bd8c6d9c275438, type: 3}
+  - {fileID: 21300000, guid: ab4edab75956738449b667d86b167f72, type: 3}
+  - {fileID: 21300000, guid: 950b5108dd55236438da25d7cf37c6a5, type: 3}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d222ca9e2200da4ab624e2fb619f740, type: 3}
+  m_Name: Slow dough
+  m_EditorClassIdentifier: 
+  frontendName: Slow rise dough
+  backendNames:
+  - breadCookLength
+  - useSlowDough
+  startingLevel: 0
+  category: 1
+  canGoBack: 1
+  levelValues:
+  - levelName: Not using
+    levelSprite: {fileID: 21300000, guid: ed5460f47f444de4f8fb6ec8e4f8aa69, type: 3}
+    levelCost: 0
+    tooltip: Keep using the normal dough.
+    levelUpgrades:
+    - 20
+    - false
+  - levelName: Using
+    levelSprite: {fileID: 21300000, guid: 5a4eebac944affd4fa253cee071517d1, type: 3}
+    levelCost: 50
+    tooltip: Using a new type of yeast, increase cooking time from 20 to 30 minutes.
+      Bread takes twice as long to overcook.
+    levelUpgrades:
+    - 30
+    - true

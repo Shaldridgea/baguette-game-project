@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d222ca9e2200da4ab624e2fb619f740, type: 3}
+  m_Name: Chocolate unlock
+  m_EditorClassIdentifier: 
+  frontendName: Chocolate
+  backendNames:
+  - chocolateUnlock
+  startingLevel: -1
+  category: 1
+  canGoBack: 0
+  levelValues:
+  - levelName: Unlock
+    levelSprite: {fileID: 21300000, guid: 5c71d9a9915bdf44c99e58cd6621b3ba, type: 3}
+    levelCost: 100
+    tooltip: A hip new type of baguette in Parisian bakeries, sprinkle some chocolate
+      into your dough and explore the sweeter side.
+    levelUpgrades:
+    - ChocolateBowl

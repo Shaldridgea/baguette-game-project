@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d222ca9e2200da4ab624e2fb619f740, type: 3}
+  m_Name: Rolling pin upgrade
+  m_EditorClassIdentifier: 
+  frontendName: Rolling pins
+  backendNames:
+  - rollingPinUpgrade
+  startingLevel: -1
+  category: 0
+  canGoBack: 0
+  levelValues:
+  - levelName: Free roller
+    levelSprite: {fileID: 21300000, guid: 87d3138f1b2a5c64db181b320e21be27, type: 3}
+    levelCost: 100
+    tooltip: A better wood rolling pin that freely rolls around its handles. Rolls
+      your dough quicker.
+    levelUpgrades:
+    - HandlesRollingPin
+  - levelName: Metal
+    levelSprite: {fileID: 21300000, guid: 381579293f67bfd4f8ed6cb2422fc206, type: 3}
+    levelCost: 200
+    tooltip: A stainless steel rolling pin for more rolling efficiency. Rolls your
+      dough quicker.
+    levelUpgrades:
+    - MetalRollingPin
+  - levelName: Silicone
+    levelSprite: {fileID: 21300000, guid: 9ca7677c1981a7f4a8338611ceb22332, type: 3}
+    levelCost: 300
+    tooltip: A pleasing blue silicone rolling pin, the most high end pin you can
+      have! Rolls your dough quicker.
+    levelUpgrades:
+    - SiliconeRollingPin
